@@ -5,7 +5,7 @@
 * [1. O que é a Cifra de César?](#1-o-que-é-a-Cifra-de-César-?)
 * [2. Resumo do projeto](#2-resumo-do-projeto)
 * [3. Público Alvo](#3-público-alvo)
-* [4. Como utilizar o Email Seguro!)(#4-como-utilizar-o-email-seguro-!)
+* [4. Como utilizar o Email Seguro!](#4-como-utilizar-o-Email-eguro-!)
 * [5. Esboço e aplicação](#5-esboço-e-aplicação)
 * [6. Tecnologias utilizadas](#6-tecnologias-utilizadas)
 ***
@@ -28,11 +28,14 @@ Esta página web é destina as pessoas que queiram cifrar ou descifrar uma palav
 
 ## 5. Esboço e aplicação
 
-<img src="DESCIFRAR.png">
+
 
 ## 7. Tecnologias utilizadas
 
 .HTML
+<br>
 .CSS
+<br>
 .JavaScript
+<br>
 .VS Code
