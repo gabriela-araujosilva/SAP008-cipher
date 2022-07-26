@@ -29,13 +29,12 @@ Esta página web é destina as pessoas que queiram cifrar ou descifrar uma palav
 ## 5. Esboço e aplicação
 
 
-
 ## 7. Tecnologias utilizadas
 
 .HTML
-<br>
+<
 .CSS
-<br>
+
 .JavaScript
-<br>
+
 .VS Code

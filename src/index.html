@@ -3,36 +3,41 @@
 
 <head>
   <meta charset="utf-8">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <title>Caesar Cipher</title>
   <link rel="stylesheet" href="style.css">
+  
 </head>
 
 <header>
-  <img src="cadeado.png" class="imagemcadeado">
+  <img src="cadeado.png" alt="cadeado preto" class="imagemcadeado">
   <h1>Email seguro!</h1>
 </header>
 
 <body>
   <div id="root">
+  
     <h2>"A Cifra de César te ajuda a ter uma senha mais segura"</h2>
-    <h3>Insira sua palavra abaixo e clique na opção desejada:</h3>
+    <h3>Insira sua <strong>senha</strong> ou <strong>senha cifrada</strong> abaixo e clique na opção desejada:</h3>
     <form>
-      <input class="suapalavra" type="text" name="digiteaquisuapalavra" id="palavra" placeholder="Digite aqui sua palavra">
-        <input type="submit" id="send" value="Enviar">
+      <input class="suapalavra" type="text" name="digiteaquisuapalavra" id="password" placeholder="Digite aqui sua senha">
+      
       <br>
       <div class="divchavedecodificacao">
-        <label for="chave">Chave de Codificação</label>
-        <input class="chavedecodificacao" type="number" name="number" value="" minlenghtclick="chavedecodificacao()" id="chave">
+        <label for="chave">Selecione um número para deslocamento:</label>
+        <input class="chavedecodificacao" type="number" name="number" value="" id="key" min="01" max="99">
       </div>
+      
       <div class="botoes">
-        <button type="button" id= "cifrar" click="cifrar()">CIFRAR</button>
-        <button type="button" id= "descifrar" click="descifrar()">DESCIFRAR</button>
+        <button type="button" id="btnEncrypt">CIFRAR</button>
+        <button type="button" id="btnDecrypt">DESCIFRAR</button>
       </div>
       <div class="resultado">
-        <label for="mensagem">Essa é sua mensagem:</label>
+        <label for="mensagem">Resultado:</label>
         <br>
-        <input type="text" name="mensagem" id="essaesuamesagem">
+        <input type="text" name="resultado" id="result">
       </div>
+      <input type="reset">
     </form>
   </div>
   <script src="index.js" type="module"></script>
@@ -41,7 +46,7 @@
 
 <footer class="icones ul">
   <p> Desenvolvido por Gabriela Araujo da Silva </p> 
-  &copy; 2022
+  <strong>&copy;</strong> 2022
    </footer>
 
 </html>
