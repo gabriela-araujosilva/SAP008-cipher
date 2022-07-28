@@ -1,13 +1,16 @@
-# Cifra de César
+# Email Seguro! (Cifra de César)
 
 ## Índice
 
-* [1. O que é a Cifra de César?](#1-o-que-é-a-Cifra-de-César-?)
-* [2. Resumo do projeto](#2-resumo-do-projeto)
-* [3. Público Alvo](#3-público-alvo)
-* [4. Como utilizar o Email Seguro!](#4-como-utilizar-o-Email-eguro-!)
-* [5. Esboço e aplicação](#5-esboço-e-aplicação)
-* [6. Tecnologias utilizadas](#6-tecnologias-utilizadas)
+* [1. Prefácio](#1-prefácio)
+* [2. O que é a Cifra de César?](#1-o-que-é-a-Cifra-de-César-?)
+* [3. Resumo do projeto](#2-resumo-do-projeto)
+* [4. Público Alvo](#3-público-alvo)
+* [5. Como utilizar o Email Seguro!](#4-como-utilizar-o-Email-eguro-!)
+* [6. Esboço e aplicação](#5-esboço-e-aplicação)
+* [7. Resultado final](#7-resultado-final)  
+* [8. Tecnologias utilizadas](#6-tecnologias-utilizadas)
+
 ***
 
 ## 1. Prefácio
@@ -28,13 +31,27 @@ Esta página web é destina as pessoas que queiram cifrar ou descifrar uma palav
 
 ## 5. Esboço e aplicação
 
+Inicialmente foi criado um layout simples para que o usuário pudesse criptografar e descriptografar uma senha.
 
-## 7. Tecnologias utilizadas
+**Protótipo de baixa fidelidade**
 
-.HTML
-<
-.CSS
+Primeiro desenho:
 
-.JavaScript
+![](meuprototipo.jpg)
 
-.VS Code
+## 7. Resultado Final
+
+![](tela.png)
+
+
+## 8. Tecnologias utilizadas
+
+![](html5.png)
+
+![](css.png)
+
+![](js.png)
+
+![](vscode.png)
+
+![](treloesc.png)

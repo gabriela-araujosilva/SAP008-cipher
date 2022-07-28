@@ -6,28 +6,28 @@
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <title>Caesar Cipher</title>
   <link rel="stylesheet" href="style.css">
-  
 </head>
 
 <header>
-  <img src="cadeado.png" alt="cadeado preto" class="imagemcadeado">
+  <img src="cadeado.png" alt="Cadeado preto" class="imagemcadeado">
   <h1>Email seguro!</h1>
 </header>
 
 <body>
   <div id="root">
-  
+
     <h2>"A Cifra de César te ajuda a ter uma senha mais segura"</h2>
     <h3>Insira sua <strong>senha</strong> ou <strong>senha cifrada</strong> abaixo e clique na opção desejada:</h3>
     <form>
-      <input class="suapalavra" type="text" name="digiteaquisuapalavra" id="password" placeholder="Digite aqui sua senha">
-      
+      <input class="suapalavra" type="text" name="digiteaquisuapalavra" id="password"
+        placeholder="Digite aqui sua senha">
+
       <br>
       <div class="divchavedecodificacao">
         <label for="chave">Selecione um número para deslocamento:</label>
-        <input class="chavedecodificacao" type="number" name="number" value="" id="key" min="01" max="99">
+        <input class="chavedecodificacao" type="number" name="number" value="" id="key" min="01" max="90">
       </div>
-      
+
       <div class="botoes">
         <button type="button" id="btnEncrypt">CIFRAR</button>
         <button type="button" id="btnDecrypt">DESCIFRAR</button>
@@ -45,8 +45,8 @@
 </body>
 
 <footer class="icones ul">
-  <p> Desenvolvido por Gabriela Araujo da Silva </p> 
+  <p> Desenvolvido por Gabriela Araujo da Silva </p>
   <strong>&copy;</strong> 2022
-   </footer>
+</footer>
 
 </html>

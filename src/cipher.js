@@ -15,17 +15,15 @@ const cipher = {
     console.log(string);
     var result = "";
 
-    for (var i = 0; i < string.length; i++) { // vai somar sempre i ++ a cada loop até terminar a palavra
+    for (var i = 0; i < string.length; i++) {
       var charCode = string.charCodeAt(i);
-      var charCodeOffset = ((charCode - 65 + offset) % 26) + 65; //(charcode codigo da letra Asc - cod1letra + deslocamento offset) % tamanho do alfabeto) + cod1letra 65
-//SEMPRE GUARDARO QUE VC VAI FAZER DENTRO DE UMA
+      var charCodeOffset = ((charCode - 65 + offset) % 26) + 65;
 
-      result = result + String.fromCharCode(charCodeOffset); //result que é la da variavel result, que esta vazia
-      //var + result pq é ela que vai retornar o resultado 
-      //charCodeOffset é o valor da var charCodeOffset
+
+      result = result + String.fromCharCode(charCodeOffset);
 
     }
-  
+
     return result;
   },
 
@@ -47,7 +45,7 @@ const cipher = {
 
     for (var i = 0; i < string.length; i++) {
       var charCode = string.charCodeAt(i);
-      var charCodeOffset = ((charCode + 65 - offset) % 26) + 65; // SOMAR charCode + cod1letra - deslocamento//
+      var charCodeOffset = ((charCode - 90 - offset) % 26) + 90;                                  // SOMAR charCode + cod1letra - deslocamento//
       result = result + String.fromCharCode(charCodeOffset);
 
     }
