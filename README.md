@@ -18,6 +18,8 @@
 A cifra de César é uma das técnicas mais simples de cifrar uma mensagem, recebe esse nome pois foi utilizada por Júlio César para se comunicar com seus generais, protegendo mensagens militares. É um tipo de cifra por substituição, em que cada letra do texto original é substituida por outra que se encontra há um número fixo de posições (deslocamento) mais a frente do mesmo alfabeto.
 
 ## 2. Resumo do projeto
+O projeto foi desenvolvido durante o período do Bootcamp da Laboratória Brasil (turma SAP008).   
+
 
 Com base nos princípios da Cifra de César, o 'Email Seguro!' permite que o usário cifre ou decifre uma palavra para utilizar em sua senha de email. É necessário escolher uma chave de deslocamento.
 

@@ -13,6 +13,7 @@ const cipher = {
     if (string === 0) throw new TypeError();
     console.log(offset);
     console.log(string);
+    
     var result = "";
 
     for (var i = 0; i < string.length; i++) {
@@ -42,7 +43,7 @@ const cipher = {
     if (string === 0) throw new TypeError();
 
     var result = "";
-
+//LAÇO INDICE COMEÇA EM 0, ENQUANTO I FOR MENOR QUE STRING.LENGH ELE INCREMENTA MAIS 1 
     for (var i = 0; i < string.length; i++) {
       var charCode = string.charCodeAt(i);
       var charCodeOffset = ((charCode - 90 - offset) % 26) + 90;                                  // SOMAR charCode + cod1letra - deslocamento//

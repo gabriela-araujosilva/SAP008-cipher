@@ -17,7 +17,6 @@ btnEncrypt.addEventListener('click', () => {
     if (isNaN(offset))
         alert('Digite seu número de deslocamento!');
 
-
     let string = password.value;
     if (string === '')
         alert('Digte sua senha!');
