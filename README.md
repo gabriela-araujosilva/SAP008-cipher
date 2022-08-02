@@ -43,7 +43,7 @@ Primeiro desenho:
 
 ## 7. Resultado Final
 
-![](tela.png)
+![](telapronta.png)
 
 
 ## 8. Tecnologias utilizadas
