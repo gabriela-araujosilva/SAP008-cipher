@@ -14,8 +14,7 @@
 </header>
 
 <body>
-  <div id="root">
-
+  <main>
     <h2>"A Cifra de César te ajuda a ter uma senha mais segura"</h2>
     <h3>Insira sua <strong>senha</strong> ou <strong>senha cifrada</strong> abaixo e clique na opção desejada:</h3>
     <form>
@@ -25,13 +24,14 @@
       <br>
       <div class="divchavedecodificacao">
         <label for="chave">Selecione um número para deslocamento:</label>
-        <input class="chavedecodificacao" type="number" name="number" value="" id="key" min="01" max="90">
+        <input class="chavedecodificacao" type="number" name="number" id="key" min="01" max="90">
       </div>
 
       <div class="botoes">
         <button type="button" id="btnEncrypt">CIFRAR</button>
-        <button type="button" id="btnDecrypt">DESCIFRAR</button>
+        <button type="button" id="btnDecrypt">DECIFRAR</button>
       </div>
+
       <div class="resultado">
         <label for="mensagem">Resultado:</label>
         <br>
@@ -39,7 +39,7 @@
       </div>
       <input type="reset">
     </form>
-  </div>
+  </main>
   <script src="index.js" type="module"></script>
 
 </body>

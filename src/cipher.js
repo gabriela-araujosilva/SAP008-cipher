@@ -11,14 +11,12 @@ const cipher = {
 
     if (offset === 0) throw new TypeError();
     if (string === 0) throw new TypeError();
-    console.log(offset);
-    console.log(string);
-    
-    var result = "";
 
-    for (var i = 0; i < string.length; i++) {
-      var charCode = string.charCodeAt(i);
-      var charCodeOffset = ((charCode - 65 + offset) % 26) + 65;
+    var result = "";
+    //teste logico sempre incremento ou decrimento começa na posição zero e compara com a palavra
+    for (let i = 0; i < string.length; i++) {
+      let charCode = string.charCodeAt(i);
+      let charCodeOffset = ((charCode - 65 + offset) % 26) + 65;
 
 
       result = result + String.fromCharCode(charCodeOffset);
@@ -42,11 +40,11 @@ const cipher = {
     if (offset === 0) throw new TypeError();
     if (string === 0) throw new TypeError();
 
-    var result = "";
-//LAÇO INDICE COMEÇA EM 0, ENQUANTO I FOR MENOR QUE STRING.LENGH ELE INCREMENTA MAIS 1 
-    for (var i = 0; i < string.length; i++) {
-      var charCode = string.charCodeAt(i);
-      var charCodeOffset = ((charCode - 90 - offset) % 26) + 90;                                  // SOMAR charCode + cod1letra - deslocamento//
+    let result = "";
+    //LAÇO INDICE COMEÇA EM 0, ENQUANTO I FOR MENOR QUE STRING.LENGTH ELE INCREMENTA MAIS 1 
+    for (let i = 0; i < string.length; i++) {
+      let charCode = string.charCodeAt(i);
+      let charCodeOffset = ((charCode - 90 - offset) % 26) + 90;                                  // SOMAR charCode + cod1letra - deslocamento//
       result = result + String.fromCharCode(charCodeOffset);
 
     }
