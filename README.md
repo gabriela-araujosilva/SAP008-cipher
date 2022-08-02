@@ -39,7 +39,7 @@ Inicialmente foi criado um layout simples para que o usuário pudesse criptograf
 
 Primeiro desenho:
 
-![](meuprototipo.jpg)
+![](prototipobaixa.png)
 
 ## 7. Resultado Final
 
