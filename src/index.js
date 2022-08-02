@@ -18,8 +18,10 @@ btnEncrypt.addEventListener('click', () => {
         alert('Digite seu número de deslocamento!');
 
     let string = password.value;
+    string = string.toUpperCase();
     if (string === '')
         alert('Digte sua senha!');
+
 
     result.value = cipher.encode(offset, string);
 });
@@ -33,6 +35,7 @@ btnDecrypt.addEventListener('click', () => {
 
 
     let string = password.value;
+    string = string.toUpperCase();
     if (string === '')
         alert('Digite sua senha!');
 
