@@ -44,7 +44,7 @@ const cipher = {
     
     for (let i = 0; i < string.length; i++) {
       let charCode = string.charCodeAt(i);
-      let charCodeOffset = ((charCode - 90 - offset) % 26) + 90;                                  // SOMAR charCode + cod1letra - deslocamento//
+      let charCodeOffset = ((charCode - 90 - offset) % 26) + 90;                                  
       result = result + String.fromCharCode(charCodeOffset);
 
     }
