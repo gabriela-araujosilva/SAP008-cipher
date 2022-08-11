@@ -1,5 +1,5 @@
 const cipher = {
-  encode: (offset, string) => {
+  encode: (offset, string) => {         //lançar//
     if (typeof offset === "undefined") throw new TypeError();
     if (typeof string === "undefined") throw new TypeError();
 
@@ -12,14 +12,14 @@ const cipher = {
     if (offset === 0) throw new TypeError();
     if (string === 0) throw new TypeError();
 
-    var result = "";
-    
+    let result = "";
+
     for (let i = 0; i < string.length; i++) {
       let charCode = string.charCodeAt(i);
       let charCodeOffset = ((charCode - 65 + offset) % 26) + 65;
 
 
-      result = result + String.fromCharCode(charCodeOffset);
+      result += String.fromCharCode(charCodeOffset);
 
     }
 
@@ -41,11 +41,11 @@ const cipher = {
     if (string === 0) throw new TypeError();
 
     let result = "";
-    
+
     for (let i = 0; i < string.length; i++) {
       let charCode = string.charCodeAt(i);
-      let charCodeOffset = ((charCode - 90 - offset) % 26) + 90;                                  
-      result = result + String.fromCharCode(charCodeOffset);
+      let charCodeOffset = ((charCode - 90 - offset) % 26) + 90;
+      result += String.fromCharCode(charCodeOffset);
 
     }
 
